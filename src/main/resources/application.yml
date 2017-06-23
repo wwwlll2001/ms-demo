@@ -8,11 +8,11 @@ spring:
     view:
       prefix: /page/
       suffix: .jsp
-  datasource:
-    url: jdbc:mysql://localhost:3306/spring_boot_demo
-    username: root
-    password: root
-    driver-class-name: com.mysql.jdbc.Driver
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/spring_boot_demo
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
 management:
   security:
     enabled: false
