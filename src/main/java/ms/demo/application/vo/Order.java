@@ -4,11 +4,14 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class Order {
-    private final int id;
-    private final int productId;
-    private final BigDecimal price;
-    private final Date date;
-    private final int orderStatus;
+    private int id;
+    private int productId;
+    private BigDecimal price;
+    private Date date;
+    private int orderStatus;
+
+    public Order() {
+    }
 
     public Order(int id, int productId, BigDecimal price, Date date, int orderStatus) {
         this.id = id;
