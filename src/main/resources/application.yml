@@ -1,0 +1,15 @@
+#netflix:
+#  atlas:
+#    uri: http://localhost:7101/api/v1/publish
+spring:
+  application:
+    name: application
+  mvc:
+    view:
+      prefix: /page/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot_demo
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver

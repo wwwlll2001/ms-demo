@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+zuul:
+  routes:
+    BBBBBB: /BBBBBB/**
+    sensitive-headers:
+  sensitive-headers:
+management:
+  port: 8081
+  security:
+    enabled: false
